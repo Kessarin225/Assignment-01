@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-01</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h3 style="text-align: center;">แบบสอบถาม</h3>
+    <hr>
+
+    <div style="display: flex; justify-content: center;">
+        <form action=" ">
+            <div class="main" style="width: 400px;padding: 20px;">
+                <p>ข้อมูลผู้ตอบแบบสอบถาม</p>
+                <div style="display: flex; align-items: center;">
+                    <p>ชื่อ-นามสกุล</p>
+                    <input type="text" style="height: 20px; margin-left: 8px; width: 70%;">
+                </div>
+
+                <div style="display: flex; align-items: center;">
+                    <p>รหัสนักศึกษา</p>
+                    <input type="text" style="height: 20px; margin-left: 3px;width: 70%;">
+                </div>
+
+                <div style="display: flex; align-items: center;">
+                    <p style="margin-right: 57px;">เพศ</p>
+                    <input type="radio" id="male" name="sex" value="male">
+                    <label for="male">ชาย</label><br>
+                    <input type="radio" id="female" name="sex" value="female">
+                    <label for="female">หญิง</label><br>
+                </div>
+
+                <div style="display: flex; align-items: center;">
+                    <p style="margin-right: 20px;">สังกัดคณะ</p>
+                    <select id="faculty">
+                        <option value="css">คณะวิทยาการคอมพิวเตอร์</option>
+                        <option value="คณะวิทยาศาตร์">คณะวิทยาศาตร์</option>
+                        <option value="ครุศาตร์">คณะครุศาตร์</option>
+                        <option value="บริหารธุรกิจ">คณะบริหารธุรกิจ</option>
+                        <option value="เทคโนโลยี">คณะเทคโนโลยี</option>
+                        <option value="พยาบาล">คณะพยาบาลศาตร์</option>
+                        <option value="แพทย์แผนไทย">คณะแพทย์แผนไทย</option>
+                        <option value="นิติศาตร์">คณะนิติศาตร์</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p style="display: flex; align-items: center;">แม่สีที่ชอบ</p>
+                    <input type="checkbox" id="red" name="red" value="red">
+                    <label for="red">สีแดง</label>
+                    <input type="checkbox" id="green" name="green" value="green">
+                    <label for="green">สีเขียว</label>
+                    <input type="checkbox" id="blue" name="blue" value="blue">
+                    <label for="blue">สีน้ำเงิน</label>
+                </div>
+                <div>
+                    <p style="display: flex; align-items: center;">ผลไม้ที่ชอบ</p>
+                    <input type="checkbox" id="mango" name="mango" value="mango">
+                    <label for="mango">มะม่วง</label>
+                    <input type="checkbox" id="custardapple" name="custardapple" value="green">
+                    <label for="custardapple">น้อยหน่า</label>
+                    <input type="checkbox" id="Durian" name="Durian" value="Durian">
+                    <label for="Durian">ทุเรียน</label><br>
+                    <input type="checkbox" id="Longan" name="Longan" value="Longan">
+                    <label for="Longan">ลำใย</label>
+                    <input type="checkbox" id="Guava" name="Guava" value="Guava">
+                    <label for="Guava">ฝรั่ง</label>
+                    <input type="checkbox" id="Watermelon" name="Watermelon" value="Watermelon">
+                    <label for="Watermelon">แตงโม</label>
+                </div>
+                <div>
+                    <p style="display: flex; align-items: center;">อาหารที่ชอบ</p>
+                    <input type="checkbox" id="tom" name="tom" value="tom">
+                    <label for="tom">ต้มยำกุ้ง</label>
+                    <input type="checkbox" id="egg" name="egg" value="egg">
+                    <label for="egg">ไข่เจียว</label>
+                    <input type="checkbox" id="kang" name="kang" value="kang">
+                    <label for="kang">แกงข่าไก่</label><br>
+                    <input type="checkbox" id="wan" name="wan" value="wan">
+                    <label for="wan">แกงเขียวหวาน</label>
+                    <input type="checkbox" id="thi" name="thi" value="thi">
+                    <label for="thi">ผัดไทย</label>
+                    <input type="checkbox" id="rad" name="rad" value="rad">
+                    <label for="rad">ราดหน้า</label>
+                </div>
+                <br>
+                <button type="submit" style="margin-left: 50%;">บันทึก</button>
+            </div>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
